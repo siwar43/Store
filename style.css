@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: white;
+}
+
+/* Partie Nav */
+.mynav {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 50px;
+}
+
+.mynav img{
+    width: 300px;
+    height: 100px;
+}
+
+.mynav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 40%;
+    align-items: center;
+    
+}
+
+.mynav a {
+    text-decoration: none;
+    color: #5271ff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Partie Carousel */
